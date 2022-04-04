@@ -18,6 +18,7 @@
     <PackageReleaseNotes>Themable WinForms controls.</PackageReleaseNotes>
     <PackageTags>Library</PackageTags>
     <UseWindowsForms>true</UseWindowsForms>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugType>full</DebugType>

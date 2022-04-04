@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Cliesta.Diagnostics\Cliesta.Diagnostics.csproj" />
+    <ProjectReference Include="..\Cliesta.Excel\Cliesta.Excel.csproj" />
+    <ProjectReference Include="..\Cliesta.Geometry\Cliesta.Geometry.csproj" />
+    <ProjectReference Include="..\Cliesta.HtmlPlots\Cliesta.HtmlPlots.csproj" />
+    <ProjectReference Include="..\Cliesta.Html\Cliesta.Html.csproj" />
+    <ProjectReference Include="..\Cliesta.Humanizer\Cliesta.Humanizer.csproj" />
+    <ProjectReference Include="..\Cliesta.Images\Cliesta.Images.csproj" />
+    <ProjectReference Include="..\Cliesta.Maths\Cliesta.Maths.csproj" />
+    <ProjectReference Include="..\Cliesta.Themes\Cliesta.Themes.csproj" />
+    <ProjectReference Include="..\Cliesta.Una.Base\Cliesta.Una.Base.csproj" />
+  </ItemGroup>
+
+</Project>

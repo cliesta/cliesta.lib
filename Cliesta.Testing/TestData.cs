@@ -44,6 +44,7 @@ namespace Cliesta.Testing
             return new DirectoryInfo( testDataDir );
         }
         
+        /*
         [Test]
         public void TestFindAnnika()
         {
@@ -55,5 +56,6 @@ namespace Cliesta.Testing
         {
             Assert.IsTrue( File.Exists( Path.Combine( GetTestDataDir().FullName, TestDataMagicFileName ) ) );
         }
+        */
     }
 }
