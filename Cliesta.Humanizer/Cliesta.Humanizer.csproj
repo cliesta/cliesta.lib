@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Humanizer" Version="2.13.14" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Cliesta.Diagnostics\Cliesta.Diagnostics.csproj" />
+    <ProjectReference Include="..\Cliesta.Maths\Cliesta.Maths.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <LangVersion>9</LangVersion>
+    <SignAssembly>False</SignAssembly>
+    <AssemblyOriginatorKeyFile>..\cliesta.key.snk</AssemblyOriginatorKeyFile>
+    <PackageVersion>1.0.1</PackageVersion>
+    <Authors>Cliesta Software</Authors>
+    <PackageId>Cliesta.Images</PackageId>
+    <PackageTags>Library</PackageTags>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Cliesta.Geometry\Cliesta.Geometry.csproj" />
+    <ProjectReference Include="..\Cliesta.Themes\Cliesta.Themes.csproj" />
+    <ProjectReference Include="..\Cliesta.Una.Base\Cliesta.Una.Base.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="SixLabors.ImageSharp" Version="1.0.4" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\cliesta.key.snk">
+      <Link>cliesta.key.snk</Link>
+    </None>
+  </ItemGroup>
+	<ItemGroup>
+		<PackageReference Include="System.Drawing.Common" Version="5.0.2" />
+	</ItemGroup>
+</Project>

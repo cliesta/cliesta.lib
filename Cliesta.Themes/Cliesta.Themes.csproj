@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <SignAssembly>False</SignAssembly>
+    <AssemblyOriginatorKeyFile>..\cliesta.key.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Cliesta.Diagnostics\Cliesta.Diagnostics.csproj" />
+    <ProjectReference Include="..\Cliesta.Maths\Cliesta.Maths.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\cliesta.key.snk">
+      <Link>cliesta.key.snk</Link>
+    </None>
+  </ItemGroup>
+
+</Project>

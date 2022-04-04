@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>..\cliesta.key.snk</AssemblyOriginatorKeyFile>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <Authors>Cliesta Software</Authors>
+        <Copyright>Copyright © 2021 Cliesta Software</Copyright>
+        <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
+        <RepositoryUrl>http://vm-a.home/api/v4/projects/3/packages/nuget/index.json</RepositoryUrl>
+    <PackageVersion>1.0.1</PackageVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="ClosedXML.Signed" Version="0.95.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\cliesta.key.snk">
+      <Link>cliesta.key.snk</Link>
+    </None>
+  </ItemGroup>
+
+</Project>
