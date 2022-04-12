@@ -3,10 +3,9 @@ using System.Diagnostics;
 using System.Drawing;
 using System.Drawing.Imaging;
 using System.IO;
-using Cliesta.Images;
 using Cliesta.Una.Base;
 
-namespace Cliesta.Base
+namespace Cliesta.Images
 {
     public static class ImageHash
     {
@@ -25,7 +24,7 @@ namespace Cliesta.Base
 
         public static ulong GetDHash( Bitmap bitmap, int size = 8, string diagnosticFileNameRoot = "" )
         {
-            Console.WriteLine(diagnosticFileNameRoot);
+            Console.WriteLine( diagnosticFileNameRoot );
             var tempFolder = SpecialFolders.GetTemporaryFolder();
 
             if ( diagnosticFileNameRoot.Length > 0 )

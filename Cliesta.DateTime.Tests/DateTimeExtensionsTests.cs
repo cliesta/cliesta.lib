@@ -20,7 +20,7 @@ using System;
 using System.Diagnostics.CodeAnalysis;
 using NUnit.Framework;
 
-namespace Cliesta.Una.Base.Tests
+namespace Cliesta.Time.Tests
 {
     [ExcludeFromCodeCoverage]
     internal class DateTimeExtensionsTests
@@ -73,25 +73,25 @@ namespace Cliesta.Una.Base.Tests
             var dt1 = new DateTime( 1974, 9, 28, 12, 31, 23, DateTimeKind.Utc );
             //var ticks1 = dt1.Ticks;
             var dt2 = dt1.AddFractionOfSecond( 0.1 );
-            Assert.AreEqual( 100, ( dt2 - dt1 ).TotalMilliseconds );
+            Assert.AreEqual( 100, (dt2 - dt1).TotalMilliseconds );
 
             dt2 = dt1.AddFractionOfSecond( 0.01 );
-            Assert.AreEqual( 10, ( dt2 - dt1 ).TotalMilliseconds );
+            Assert.AreEqual( 10, (dt2 - dt1).TotalMilliseconds );
 
             dt2 = dt1.AddFractionOfSecond( 0.001 );
-            Assert.AreEqual( 1, ( dt2 - dt1 ).TotalMilliseconds );
+            Assert.AreEqual( 1, (dt2 - dt1).TotalMilliseconds );
 
             dt2 = dt1.AddFractionOfSecond( 0.0001 );
-            Assert.AreEqual( 0.1, ( dt2 - dt1 ).TotalMilliseconds );
+            Assert.AreEqual( 0.1, (dt2 - dt1).TotalMilliseconds );
 
             dt2 = dt1.AddFractionOfSecond( 0.00001 );
-            Assert.AreEqual( 0.01, ( dt2 - dt1 ).TotalMilliseconds );
+            Assert.AreEqual( 0.01, (dt2 - dt1).TotalMilliseconds );
 
             dt2 = dt1.AddFractionOfSecond( 0.000001 );
-            Assert.AreEqual( 0.001, ( dt2 - dt1 ).TotalMilliseconds );
+            Assert.AreEqual( 0.001, (dt2 - dt1).TotalMilliseconds );
 
             dt2 = dt1.AddFractionOfSecond( 0.0000001 );
-            Assert.AreEqual( 0.0001, ( dt2 - dt1 ).TotalMilliseconds );
+            Assert.AreEqual( 0.0001, (dt2 - dt1).TotalMilliseconds );
 
             var dt3 = dt1.AddFractionOfSecond( 0.0000002 );
             Assert.AreEqual( 1, dt3.Ticks - dt2.Ticks );

@@ -24,11 +24,12 @@ using Cliesta.Testing;
 using Cliesta.Themes;
 using NUnit.Framework;
 
-namespace Cliesta.Una.Base.Tests
+namespace Cliesta.Images.Tests
 {
     [ExcludeFromCodeCoverage]
     public class VisualiserTests
     {
+        /*
         [Test]
         public void DrawShapes()
         {
@@ -54,5 +55,6 @@ namespace Cliesta.Una.Base.Tests
 
             //Assert.IsTrue(bmp.);
         }
+        */
     }
 }

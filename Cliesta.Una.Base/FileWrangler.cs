@@ -6,7 +6,7 @@ using System.IO;
 using System.Linq;
 using System.Text;
 
-namespace Cliesta.Base
+namespace Cliesta.Una.Base
 {
     public static class FileWrangler
     {
@@ -139,8 +139,8 @@ namespace Cliesta.Base
                     }
 
                     const int bufferLength = 1000;
-                    var buf1 = new byte[bufferLength];
-                    var buf2 = new byte[bufferLength];
+                    var buf1 = new byte[ bufferLength ];
+                    var buf2 = new byte[ bufferLength ];
                     int count1;
                     while ( (count1 = sr1.Read( buf1, 0, bufferLength )) > 0 )
                     {

@@ -4,7 +4,7 @@ using Cliesta.Images;
 using Cliesta.Testing;
 using NUnit.Framework;
 
-namespace Cliesta.Una.Base.Tests
+namespace Cliesta.Images.Tests
 {
     public class CompareBitmapsTests
     {
@@ -48,12 +48,13 @@ namespace Cliesta.Una.Base.Tests
             Assert.IsFalse( bmp1.IsIdenticalTo( bmp2 ) );
         }
 
+        /*
         [Test]
         public void TwoHorsesAreIdentical()
         {
             var bmp1 = new Bitmap( TestData.GetPath( @"test-files\set3\photos\2020\IMG_20200111_154534.jpg" ) );
             var bmp2 = new Bitmap( TestData.GetPath( @"test-files\set3\photos\2020\IMG_20200111_154534 - Copy.jpg" ) );
-            
+
             Assert.IsTrue( bmp1.IsIdenticalTo( bmp2 ) );
         }
 
@@ -62,8 +63,9 @@ namespace Cliesta.Una.Base.Tests
         {
             var bmp1 = new Bitmap( TestData.GetPath( @"test-files\set3\photos\2020\IMG_20200111_154534.jpg" ) );
             var bmp2 = new Bitmap( TestData.GetPath( @"test-files\set3\photos\2020\IMG_20200111_154534d.jpg" ) );
-            
+
             Assert.IsFalse( bmp1.IsIdenticalTo( bmp2 ) );
         }
+        */
     }
 }

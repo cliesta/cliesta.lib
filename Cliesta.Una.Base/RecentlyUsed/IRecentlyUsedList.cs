@@ -18,7 +18,7 @@
 
 using System.Collections.Generic;
 
-namespace Cliesta.Una.Base
+namespace Cliesta.Una.Base.RecentlyUsed
 {
     public interface IRecentlyUsedList
     {

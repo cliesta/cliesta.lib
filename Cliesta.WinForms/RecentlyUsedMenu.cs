@@ -20,7 +20,7 @@ using System;
 using System.Linq;
 using System.Windows.Forms;
 using Cliesta.Themes;
-using Cliesta.Una.Base;
+using Cliesta.Una.Base.RecentlyUsed;
 
 namespace Cliesta.WinForms
 {

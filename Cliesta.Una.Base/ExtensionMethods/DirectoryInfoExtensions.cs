@@ -20,7 +20,7 @@ using System;
 using System.Diagnostics;
 using System.IO;
 
-namespace Cliesta.Una.Base
+namespace Cliesta.Una.Base.ExtensionMethods
 {
     public static class DirectoryInfoExtensions
     {

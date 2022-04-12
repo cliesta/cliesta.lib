@@ -19,7 +19,7 @@
 using System.Collections.Generic;
 using System.IO;
 
-namespace Cliesta.Una.Base
+namespace Cliesta.Una.Base.RecentlyUsed
 {
     public class PersistentRecentlyUsedList : IRecentlyUsedList
     {
@@ -74,7 +74,7 @@ namespace Cliesta.Una.Base
             using var sw = new StreamWriter( _fileName );
             foreach ( var s in _list )
             {
-                sw.WriteLine(s);
+                sw.WriteLine( s );
             }
         }
     }
