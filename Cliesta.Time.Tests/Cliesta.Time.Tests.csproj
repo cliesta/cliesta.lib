@@ -15,7 +15,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Cliesta.DateTime\Cliesta.Time.csproj" />
+    <ProjectReference Include="..\Cliesta.Time\Cliesta.Time.csproj" />
   </ItemGroup>
 
 </Project>
