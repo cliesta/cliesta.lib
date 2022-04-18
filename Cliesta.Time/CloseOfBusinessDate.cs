@@ -52,6 +52,7 @@ namespace Cliesta.Time
         public int Month => DateTime.Month;
         public int Day => DateTime.Day;
         public static readonly CloseOfBusinessDate MaxValue = new CloseOfBusinessDate( 3000, 1, 1 );
+        public static readonly CloseOfBusinessDate MinValue = new CloseOfBusinessDate( 1000, 1, 1 );
 
         public CloseOfBusinessDate( string dateStr )
         {
@@ -133,6 +134,16 @@ namespace Cliesta.Time
         {
             var span = date1.DateTime - date2.DateTime;
             return (int)Math.Round( span.TotalDays, 0 );
+        }
+
+        public static CloseOfBusinessDate operator -( CloseOfBusinessDate date1, int days )
+        {
+            return date1.AddDays( -days );
+        }
+
+        public static CloseOfBusinessDate operator +( CloseOfBusinessDate date1, int days )
+        {
+            return date1.AddDays( days );
         }
 
         public CloseOfBusinessDate AddDays( int days )
