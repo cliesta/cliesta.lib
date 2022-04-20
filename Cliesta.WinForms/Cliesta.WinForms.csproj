@@ -1,14 +1,12 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <TargetFramework>net5.0-windows</TargetFramework>
-    <SignAssembly>False</SignAssembly>
-    <AssemblyOriginatorKeyFile>..\cliesta.key.snk</AssemblyOriginatorKeyFile>
     <LangVersion>9</LangVersion>
     <AssemblyTitle>Cliesta.WinForms</AssemblyTitle>
     <Company>Cliesta Software</Company>
     <Product>Cliesta.WinForms</Product>
     <Description>General purpose class library</Description>
-    <Copyright>Copyright © 2021 Cliesta Software</Copyright>
+    <Copyright>Copyright © 2022 Cliesta Software</Copyright>
     <Version>1.0.2</Version>
     <AssemblyVersion>1.0.0.1</AssemblyVersion>
     <FileVersion>1.0.0.1</FileVersion>
