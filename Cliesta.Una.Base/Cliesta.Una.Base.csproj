@@ -17,7 +17,4 @@
       <Link>cliesta.key.snk</Link>
     </None>
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Cliesta.Diagnostics\Cliesta.Diagnostics.csproj" />
-  </ItemGroup>
 </Project>

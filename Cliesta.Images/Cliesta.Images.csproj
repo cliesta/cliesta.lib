@@ -10,11 +10,6 @@
     <PackageTags>Library</PackageTags>
   </PropertyGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Cliesta.Geometry\Cliesta.Geometry.csproj" />
-    <ProjectReference Include="..\Cliesta.Themes\Cliesta.Themes.csproj" />
-    <ProjectReference Include="..\Cliesta.Una.Base\Cliesta.Una.Base.csproj" />
-  </ItemGroup>
-  <ItemGroup>
     <PackageReference Include="SixLabors.ImageSharp" Version="1.0.4" />
   </ItemGroup>
   <ItemGroup>

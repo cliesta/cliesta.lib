@@ -32,10 +32,10 @@ namespace Cliesta.Images
     {
         private double _pixelsPerUnit;
         private readonly Colour _backgroundColour;
-        private readonly List<Action<Graphics>> _drawOperations = new();
+        private readonly List<Action<Graphics>> _drawOperations = new List<Action<Graphics>>();
 
-        private Interval _xRange = new();
-        private Interval _yRange = new();
+        private Interval _xRange = new Interval();
+        private Interval _yRange = new Interval();
 
         public Visualiser( double pixelsPerUnit, Colour backgroundColour )
         {
@@ -160,7 +160,9 @@ namespace Cliesta.Images
 
         private Point2D ScalePoint( Point2D point )
         {
-            return new( (point.X - _xRange.Min) * _pixelsPerUnit, (_yRange.Max - point.Y) * _pixelsPerUnit );
+            return new Point2D( 
+                (point.X - _xRange.Min) * _pixelsPerUnit, 
+                (_yRange.Max - point.Y) * _pixelsPerUnit );
         }
 
         public Bitmap Visualise()
@@ -169,11 +171,13 @@ namespace Cliesta.Images
             var height = (int) (_yRange.Range * _pixelsPerUnit);
             var bitmap = new Bitmap( width, height );
 
-            using var graphics = Graphics.FromImage( bitmap );
+            using ( var graphics = Graphics.FromImage( bitmap ) )
+            {
 
-            Visualise( graphics );
+                Visualise( graphics );
 
-            return bitmap;
+                return bitmap;
+            }
         }
 
         public void Visualise( Graphics graphics )

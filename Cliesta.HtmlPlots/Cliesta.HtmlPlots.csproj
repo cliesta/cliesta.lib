@@ -8,9 +8,4 @@
     <PackageReference Include="XPlot.Plotly" Version="4.0.6" />
   </ItemGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\Cliesta.Geometry\Cliesta.Geometry.csproj" />
-    <ProjectReference Include="..\Cliesta.Html\Cliesta.Html.csproj" />
-  </ItemGroup>
-
 </Project>

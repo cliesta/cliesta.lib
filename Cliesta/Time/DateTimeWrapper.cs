@@ -70,6 +70,7 @@ namespace Cliesta.Time
         [ExcludeFromCodeCoverage]
         public string ToString( string format ) => DateTime.ToString( format );
 
+        /*
         public static DateTimeWrapper ParseDateDD_MMM_YYYY( string dateStr )
         {
             var dateBits = dateStr.Trim().Split( ' ' );
@@ -113,7 +114,7 @@ namespace Cliesta.Time
 
             throw new InvalidDataException( $"Failed to parse date \"{dateStr}\"" );
         }
-
+        */
 
     }
 }

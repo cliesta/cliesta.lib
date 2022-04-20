@@ -27,8 +27,7 @@
     <DebugType>pdbonly</DebugType>
   </PropertyGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Cliesta.Themes\Cliesta.Themes.csproj" />
-    <ProjectReference Include="..\Cliesta.Una.Base\Cliesta.Una.Base.csproj" />
+    <ProjectReference Include="..\Cliesta\Cliesta.csproj" />
   </ItemGroup>
   <ItemGroup>
     <Compile Update="Properties\Settings.Designer.cs">

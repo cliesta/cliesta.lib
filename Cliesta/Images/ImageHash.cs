@@ -18,8 +18,10 @@ namespace Cliesta.Images
                 throw new IOException( $"File not found {bitmapFilePath}" );
             }
 
-            using var bmp = new Bitmap( bitmapFilePath );
-            return GetDHash( bmp, size, file.Name );
+            using ( var bmp = new Bitmap( bitmapFilePath ) )
+            {
+                return GetDHash( bmp, size, file.Name );
+            }
         }
 
         public static ulong GetDHash( Bitmap bitmap, int size = 8, string diagnosticFileNameRoot = "" )

@@ -7,7 +7,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Cliesta.Diagnostics\Cliesta.Diagnostics.csproj" />
     <ProjectReference Include="..\Cliesta.Maths\Cliesta.Maths.csproj" />
   </ItemGroup>
 
@@ -15,6 +14,10 @@
     <None Include="..\cliesta.key.snk">
       <Link>cliesta.key.snk</Link>
     </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Themes\" />
   </ItemGroup>
 
 </Project>

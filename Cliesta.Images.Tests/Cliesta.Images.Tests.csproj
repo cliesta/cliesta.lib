@@ -20,6 +20,5 @@
     <ProjectReference Include="..\Cliesta.Images\Cliesta.Images.csproj" />
     <ProjectReference Include="..\Cliesta.Testing\Cliesta.Testing.csproj" />
     <ProjectReference Include="..\Cliesta.Una.Base.Tests\Cliesta.Una.Base.Tests.csproj" />
-    <ProjectReference Include="..\Cliesta.Una.Base\Cliesta.Una.Base.csproj" />
   </ItemGroup>
 </Project>

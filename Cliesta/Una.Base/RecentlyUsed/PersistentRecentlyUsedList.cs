@@ -24,7 +24,7 @@ namespace Cliesta.Una.Base.RecentlyUsed
     public class PersistentRecentlyUsedList : IRecentlyUsedList
     {
         private readonly string _fileName;
-        private readonly List<string> _list = new();
+        private readonly List<string> _list = new List<string>();
 
         public PersistentRecentlyUsedList( string fileName )
         {
@@ -37,13 +37,15 @@ namespace Cliesta.Una.Base.RecentlyUsed
         private void ReadList()
         {
             if ( !File.Exists( _fileName ) ) return;
-            using var sr = new StreamReader( _fileName );
-            while ( !sr.EndOfStream )
+            using ( var sr = new StreamReader( _fileName ) )
             {
-                var line = sr.ReadLine()?.Trim();
-                if ( line?.Length > 0 )
+                while ( !sr.EndOfStream )
                 {
-                    _list.Add( line );
+                    var line = sr.ReadLine()?.Trim();
+                    if ( line?.Length > 0 )
+                    {
+                        _list.Add( line );
+                    }
                 }
             }
         }
@@ -71,10 +73,12 @@ namespace Cliesta.Una.Base.RecentlyUsed
 
         private void WriteList()
         {
-            using var sw = new StreamWriter( _fileName );
-            foreach ( var s in _list )
+            using ( var sw = new StreamWriter( _fileName ) )
             {
-                sw.WriteLine( s );
+                foreach ( var s in _list )
+                {
+                    sw.WriteLine( s );
+                }
             }
         }
     }

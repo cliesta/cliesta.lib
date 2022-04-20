@@ -11,8 +11,4 @@
     <PackageReference Include="NUnit3TestAdapter" Version="4.0.0" />
     <PackageReference Include="coverlet.collector" Version="3.0.3" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Cliesta.Geometry\Cliesta.Geometry.csproj" />
-    <ProjectReference Include="..\Cliesta.Una.Base\Cliesta.Una.Base.csproj" />
-  </ItemGroup>
 </Project>
