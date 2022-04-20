@@ -11,4 +11,7 @@
     <PackageReference Include="NUnit3TestAdapter" Version="4.0.0" />
     <PackageReference Include="coverlet.collector" Version="3.0.3" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Cliesta\Cliesta.csproj" />
+  </ItemGroup>
 </Project>
