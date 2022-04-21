@@ -20,7 +20,7 @@ using Cliesta.Lib2.Maths;
 using NUnit.Framework;
 using System;
 
-namespace Cliesta.Testing.Maths
+namespace Cliesta.Lib2.Tests.Maths
 {
 
     [TestFixtureSource( nameof( FixtureArgs ) )]

@@ -22,7 +22,7 @@ using NUnit.Framework;
 using Cliesta.Lib2.Time;
 
 
-namespace Cliesta.Testing.Time
+namespace Cliesta.Lib2.Tests.Time
 {
     [ExcludeFromCodeCoverage]
     internal class DateTimeExtensionsTests

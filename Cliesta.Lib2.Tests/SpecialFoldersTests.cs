@@ -21,7 +21,7 @@ using System.IO;
 using Cliesta.Lib2.FileHandling;
 using NUnit.Framework;
 
-namespace Cliesta.Testing
+namespace Cliesta.Lib2.Tests
 {
     [ExcludeFromCodeCoverage]
     public class SpecialFoldersTests

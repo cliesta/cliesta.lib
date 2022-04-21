@@ -20,7 +20,7 @@ using NUnit.Framework;
 using System.Drawing;
 using Cliesta.Lib2.Images;
 
-namespace Cliesta.Testing.Images
+namespace Cliesta.Lib2.Tests.Images
 {
     public class ResizeBitmapTests
     {

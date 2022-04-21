@@ -19,7 +19,7 @@
 using NUnit.Framework;
 using Cliesta.Lib2.Maths;
 
-namespace Cliesta.Testing.Maths
+namespace Cliesta.Lib2.Tests.Maths
 {
     public class InRangeTests
     {

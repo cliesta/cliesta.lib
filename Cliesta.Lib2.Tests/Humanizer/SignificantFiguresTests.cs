@@ -19,7 +19,7 @@
 using NUnit.Framework;
 using Cliesta.Lib2.Humanizer;
 
-namespace Cliesta.Testing.Humanizer
+namespace Cliesta.Lib2.Tests.Humanizer
 {
     public class SignificantFiguresTests
     {

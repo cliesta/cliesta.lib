@@ -21,7 +21,7 @@ using System.Diagnostics.CodeAnalysis;
 using System.IO;
 using NUnit.Framework;
 
-namespace Cliesta.Testing
+namespace Cliesta.Lib2.Tests
 {
     [ExcludeFromCodeCoverage]
     public class TestData
@@ -43,7 +43,7 @@ namespace Cliesta.Testing
         {
             var path = new DirectoryInfo( TestContext.CurrentContext.TestDirectory );
 
-            for ( ;; )
+            for (; ; )
             {
                 var magicFilePath = Path.Combine( path.FullName, AnnikaRootMagicFileName );
                 if ( File.Exists( magicFilePath ) )
@@ -61,7 +61,7 @@ namespace Cliesta.Testing
             var testDataDir = Path.Combine( annikaDir.FullName, "test-data" );
             return new DirectoryInfo( testDataDir );
         }
-        
+
         /*
         [Test]
         public void TestFindAnnika()

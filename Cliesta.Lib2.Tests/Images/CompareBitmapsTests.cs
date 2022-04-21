@@ -21,7 +21,7 @@ using NUnit.Framework;
 using Cliesta.Lib2.Images;
 using System.Drawing.Imaging;
 
-namespace Cliesta.Testing.Images
+namespace Cliesta.Lib2.Tests.Images
 {
     public class CompareBitmapsTests
     {

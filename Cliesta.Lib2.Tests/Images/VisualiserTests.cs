@@ -18,7 +18,7 @@
 
 using System.Diagnostics.CodeAnalysis;
 
-namespace Cliesta.Testing.Images
+namespace Cliesta.Lib2.Tests.Images
 {
     [ExcludeFromCodeCoverage]
     public class VisualiserTests
