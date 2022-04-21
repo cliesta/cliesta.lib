@@ -16,10 +16,11 @@
 
 #endregion
 
-namespace Cliesta.Html
+
+namespace Cliesta.Html.Header
 {
-    public interface IHtmlHeaderElement  : IHtmlElement
+    public interface IHtmlHeaderElement : IHtmlElement
     {
-        
+
     }
 }
