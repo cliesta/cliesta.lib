@@ -16,7 +16,8 @@
 
 #endregion
 
-namespace Cliesta.Html
+
+namespace Cliesta.Html.Header
 {
     public interface IStyleElement : IHtmlElement
     {

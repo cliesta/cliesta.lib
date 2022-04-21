@@ -20,7 +20,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace Cliesta.Maths
+namespace Cliesta.Maths.Statistics
 {
     public class KernelDensity
     {

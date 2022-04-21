@@ -16,9 +16,10 @@
 
 #endregion
 
+using Cliesta.Maths;
 using NUnit.Framework;
 
-namespace Cliesta.Maths.Tests
+namespace Cliesta.Testing.Maths
 {
     public class InRangeTests
     {
@@ -46,7 +47,7 @@ namespace Cliesta.Maths.Tests
         [TestCase( 0, 1, -1, false, true, false )]
         [TestCase( 0, 1, 2, false, true, false )]
 
-        public void TestInRange(double min, double max, double value, bool includeMin, bool includeMax, bool expectedResult)
+        public void TestInRange( double min, double max, double value, bool includeMin, bool includeMax, bool expectedResult )
         {
             Assert.AreEqual( expectedResult, value.InRange( min, max, includeMin, includeMax ) );
         }

@@ -17,13 +17,13 @@
 #endregion
 
 
-namespace Cliesta.Html
+namespace Cliesta.Html.Body
 {
     public abstract class HtmlBodyElement : IHtmlBodyElement
     {
         public string StyleClass { get; }
 
-        public HtmlBodyElement(string styleClass)
+        public HtmlBodyElement( string styleClass )
         {
             StyleClass = styleClass;
         }

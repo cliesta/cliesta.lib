@@ -16,6 +16,7 @@
 
 #endregion
 
+using Cliesta.Html.Body;
 using System.Text;
 
 namespace Cliesta.Html

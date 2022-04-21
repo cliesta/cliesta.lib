@@ -19,7 +19,7 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace Cliesta.Html
+namespace Cliesta.Html.Body
 {
     public class HtmlTableRow : IHtmlBodyElement
     {

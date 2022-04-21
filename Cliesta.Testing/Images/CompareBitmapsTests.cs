@@ -22,7 +22,7 @@ using Cliesta.Images;
 using Cliesta.Testing;
 using NUnit.Framework;
 
-namespace Cliesta.Images.Tests
+namespace Cliesta.Testing.Images
 {
     public class CompareBitmapsTests
     {

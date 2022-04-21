@@ -21,7 +21,7 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
 
-namespace Cliesta.Maths
+namespace Cliesta.Maths.Statistics
 {
     public class NormalDistributionWithValues : NormalDistribution
     {

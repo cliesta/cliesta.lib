@@ -16,7 +16,8 @@
 
 #endregion
 
-namespace Cliesta.Html
+
+namespace Cliesta.Html.Body
 {
     public class StyleModifier
     {
@@ -27,7 +28,7 @@ namespace Cliesta.Html
         {
         }
 
-        public StyleModifier(string html)
+        public StyleModifier( string html )
         {
             Html = html;
             IsEnabled = true;

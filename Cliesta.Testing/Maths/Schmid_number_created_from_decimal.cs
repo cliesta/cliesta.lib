@@ -16,10 +16,11 @@
 
 #endregion
 
+using Cliesta.Maths;
 using NUnit.Framework;
 using System;
 
-namespace Cliesta.Maths.Tests
+namespace Cliesta.Testing.Maths
 {
 
     [TestFixtureSource( nameof( FixtureArgs ) )]
@@ -58,7 +59,7 @@ namespace Cliesta.Maths.Tests
         [Test]
         public void Has_correct_value()
         {
-            Assert.IsTrue( (_value - _schmid.Value) < 1e-20m );
+            Assert.IsTrue( _value - _schmid.Value < 1e-20m );
         }
 
         [Test]

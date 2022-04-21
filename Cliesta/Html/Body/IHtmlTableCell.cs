@@ -16,10 +16,11 @@
 
 #endregion
 
-namespace Cliesta.Html
+
+namespace Cliesta.Html.Body
 {
     public interface IHtmlTableCell : IHtmlBodyElement
     {
-        
+
     }
 }

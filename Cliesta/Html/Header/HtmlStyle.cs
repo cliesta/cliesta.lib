@@ -18,7 +18,7 @@
 
 using System.Collections.Generic;
 
-namespace Cliesta.Html
+namespace Cliesta.Html.Header
 {
     public class HtmlStyle : IHtmlHeaderElement
     {
@@ -29,7 +29,7 @@ namespace Cliesta.Html
             _styleElements = new List<IStyleElement>( styleElements );
         }
 
-        public void Build( HtmlBuilder builder  )
+        public void Build( HtmlBuilder builder )
         {
             builder.AppendLine( "<style>" );
             foreach ( var style in _styleElements )

@@ -16,7 +16,8 @@
 
 #endregion
 
-namespace Cliesta.Html
+
+namespace Cliesta.Html.Body
 {
     public class HtmlLiteralString : IHtmlBodyElement
     {

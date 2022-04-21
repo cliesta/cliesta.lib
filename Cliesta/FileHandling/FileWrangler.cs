@@ -24,7 +24,7 @@ using System.IO;
 using System.Linq;
 using System.Text;
 
-namespace Cliesta.Una.Base
+namespace Cliesta.FileHandling
 {
     public static class FileWrangler
     {

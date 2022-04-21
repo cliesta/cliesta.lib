@@ -18,6 +18,7 @@
 
 using Cliesta.Geometry;
 using Cliesta.Html;
+using Cliesta.Html.Body;
 using Cliesta.Maths;
 using Cliesta.Themes;
 using System;

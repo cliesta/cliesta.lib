@@ -18,7 +18,7 @@
 
 using System.Collections.Generic;
 
-namespace Cliesta.Html
+namespace Cliesta.Html.Body
 {
     public class HtmlTable : IHtmlBodyElement
     {
@@ -41,7 +41,7 @@ namespace Cliesta.Html
 
             foreach ( var row in _rows )
             {
-                row.Build( builder.NextLevel() ) ;
+                row.Build( builder.NextLevel() );
             }
 
             builder.AppendLine( "</table>" );

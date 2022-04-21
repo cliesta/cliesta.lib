@@ -19,13 +19,13 @@
 using System;
 using System.Text;
 
-namespace Cliesta.Una.Base
+namespace Cliesta.Strings
 {
     public class BufferedText
     {
         private StringBuilder _stringBuilder = new StringBuilder();
         private readonly Action<string> _outputAction;
-        
+
         public BufferedText( Action<string> outputAction )
         {
             _outputAction = outputAction;

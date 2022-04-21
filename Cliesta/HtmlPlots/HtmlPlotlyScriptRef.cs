@@ -17,6 +17,7 @@
 #endregion
 
 using Cliesta.Html;
+using Cliesta.Html.Header;
 
 namespace Cliesta.HtmlPlots
 {

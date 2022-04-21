@@ -17,7 +17,7 @@
 #endregion
 
 
-namespace Cliesta.Html
+namespace Cliesta.Html.Body
 {
     public class HtmlTableCell : HtmlBodyElement, IHtmlTableCell
     {

@@ -20,7 +20,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace Cliesta.Maths
+namespace Cliesta.Maths.Statistics
 {
     public static class DoublesExtensions
     {
@@ -59,7 +59,7 @@ namespace Cliesta.Maths
             var S = values.Skewness();
             var K = values.Kurtosis();
 
-            return (values.Count() / 6.0) * (Math.Pow( S, 2 ) + 0.25 * Math.Pow( K - 3, 2 ));
+            return values.Count() / 6.0 * (Math.Pow( S, 2 ) + 0.25 * Math.Pow( K - 3, 2 ));
         }
 
     }

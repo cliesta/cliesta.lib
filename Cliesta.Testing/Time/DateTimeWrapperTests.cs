@@ -21,7 +21,7 @@ using System.Diagnostics.CodeAnalysis;
 using NUnit.Framework;
 using Cliesta.Time;
 
-namespace Cliesta.Time.Tests
+namespace Cliesta.Testing.Time
 {
     [ExcludeFromCodeCoverage]
     internal class DateTimeWrapperTests

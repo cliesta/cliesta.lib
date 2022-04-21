@@ -18,9 +18,10 @@
 
 using System;
 using System.Diagnostics.CodeAnalysis;
+using Cliesta.Time;
 using NUnit.Framework;
 
-namespace Cliesta.Time.Tests
+namespace Cliesta.Testing.Time
 {
     [ExcludeFromCodeCoverage]
     internal class DateTimeExtensionsTests

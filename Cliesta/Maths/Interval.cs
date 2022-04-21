@@ -16,6 +16,7 @@
 
 #endregion
 
+using Cliesta.Maths.Statistics;
 using System;
 using System.Diagnostics;
 

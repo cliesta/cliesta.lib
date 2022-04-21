@@ -16,9 +16,10 @@
 
 #endregion
 
+using Cliesta.Humanizer;
 using NUnit.Framework;
 
-namespace Cliesta.Humanizer.Tests
+namespace Cliesta.Testing.Humanizer
 {
     public class SignificantFiguresTests
     {
@@ -79,7 +80,7 @@ namespace Cliesta.Humanizer.Tests
         [TestCase( 12345.6789, 3, "12346" )]
         [TestCase( 12345.6789, 2, "12346" )]
         [TestCase( 12345.6789, 1, "12346" )]
-       
+
         [TestCase( 1e3, 1, "1000" )]
         [TestCase( 593543, 1, "593543" )]
         [TestCase( 12345678.9, 1, "12345679" )]
@@ -93,7 +94,7 @@ namespace Cliesta.Humanizer.Tests
         [TestCase( 0.000000000000148, 3, "1.480E-013" )]
         [TestCase( 0.000000000000000148, 3, "1.480E-016" )]
         [TestCase( 0.000000000000000000148, 3, "1.480E-019" )]
-        
+
         public void DecimalsToSignificantFigures( decimal value, int significantFigures, string expectedString )
         {
             Assert.AreEqual( expectedString, value.ToSignificantFigures( significantFigures ) );

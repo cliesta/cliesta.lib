@@ -18,7 +18,7 @@
 
 using System.Collections.Generic;
 
-namespace Cliesta.Html
+namespace Cliesta.Html.Body
 {
     public class HtmlBody : HtmlBodyElement, IHtmlElement
     {

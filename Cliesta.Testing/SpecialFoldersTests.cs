@@ -18,9 +18,10 @@
 
 using System.Diagnostics.CodeAnalysis;
 using System.IO;
+using Cliesta.FileHandling;
 using NUnit.Framework;
 
-namespace Cliesta.Una.Base.Tests
+namespace Cliesta.Testing
 {
     [ExcludeFromCodeCoverage]
     public class SpecialFoldersTests
@@ -32,7 +33,7 @@ namespace Cliesta.Una.Base.Tests
             Assert.IsTrue( dir.EndsWith( "/com.cliesta/log" ) );
             Assert.IsTrue( Directory.Exists( dir ) );
         }
-        
+
         [Test]
         public void TestAppDataDir()
         {
@@ -40,7 +41,7 @@ namespace Cliesta.Una.Base.Tests
             Assert.IsTrue( dir.EndsWith( "/com.cliesta/config" ) );
             Assert.IsTrue( Directory.Exists( dir ) );
         }
-        
+
         [Test]
         public void TestTempDir()
         {
@@ -48,6 +49,6 @@ namespace Cliesta.Una.Base.Tests
             Assert.IsTrue( dir.EndsWith( "/com.cliesta/temp" ) );
             Assert.IsTrue( Directory.Exists( dir ) );
         }
-        
+
     }
 }

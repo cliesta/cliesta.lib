@@ -18,7 +18,7 @@
 
 using System.Collections.Generic;
 
-namespace Cliesta.Html
+namespace Cliesta.Html.Header
 {
     public class HtmlHeader : IHtmlElement
     {
@@ -29,7 +29,7 @@ namespace Cliesta.Html
         {
             _options = options;
             _htmlHeaderElements = new List<IHtmlHeaderElement>( headerElements );
-            _htmlHeaderElements.Add( new HtmlTitle( options.Title) );
+            _htmlHeaderElements.Add( new HtmlTitle( options.Title ) );
 
         }
 

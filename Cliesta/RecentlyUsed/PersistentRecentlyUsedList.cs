@@ -19,7 +19,7 @@
 using System.Collections.Generic;
 using System.IO;
 
-namespace Cliesta.Una.Base.RecentlyUsed
+namespace Cliesta.RecentlyUsed
 {
     public class PersistentRecentlyUsedList : IRecentlyUsedList
     {

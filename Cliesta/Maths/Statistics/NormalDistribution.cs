@@ -18,7 +18,7 @@
 
 using MathNet.Numerics.Distributions;
 
-namespace Cliesta.Maths
+namespace Cliesta.Maths.Statistics
 {
     public class NormalDistribution
     {
@@ -37,7 +37,7 @@ namespace Cliesta.Maths
             _distribution = new Normal( mean, stdDev );
         }
 
-        public double ProbabilityDensity(double x)
+        public double ProbabilityDensity( double x )
         {
             return _distribution.Density( x );
         }

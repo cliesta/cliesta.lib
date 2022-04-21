@@ -19,12 +19,11 @@
 using System.Diagnostics.CodeAnalysis;
 using System.Drawing;
 using Cliesta.Geometry;
-using Cliesta.Images;
 using Cliesta.Testing;
 using Cliesta.Themes;
 using NUnit.Framework;
 
-namespace Cliesta.Images.Tests
+namespace Cliesta.Testing.Images
 {
     [ExcludeFromCodeCoverage]
     public class VisualiserTests

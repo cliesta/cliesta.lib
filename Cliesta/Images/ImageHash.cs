@@ -21,7 +21,7 @@ using System.Diagnostics;
 using System.Drawing;
 using System.Drawing.Imaging;
 using System.IO;
-using Cliesta.Una.Base;
+using Cliesta.FileHandling;
 
 namespace Cliesta.Images
 {

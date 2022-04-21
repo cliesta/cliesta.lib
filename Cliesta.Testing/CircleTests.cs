@@ -20,7 +20,7 @@ using System.Diagnostics.CodeAnalysis;
 using Cliesta.Geometry;
 using NUnit.Framework;
 
-namespace Cliesta.Una.Base.Tests
+namespace Cliesta.Testing
 {
     [ExcludeFromCodeCoverage]
     public class CircleTests
