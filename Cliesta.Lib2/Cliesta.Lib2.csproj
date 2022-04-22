@@ -1,15 +1,15 @@
 <Project Sdk="Microsoft.NET.Sdk">
-
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
-    <Authors>Cliesta Software</Authors>
+    <AssemblyTitle>Cliesta.Lib2</AssemblyTitle>
+    <Company>Cliesta Software</Company>
+    <Description>General purpose class library</Description>
     <Copyright>Copyright © 2022 Cliesta Software</Copyright>
+    <PackageId>$(AssemblyName)</PackageId>
     <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
-    <RepositoryUrl>http://vm-a.home/api/v4/projects/3/packages/nuget/index.json</RepositoryUrl>
-    <PackageVersion>1.0.4</PackageVersion>
+    <PackageVersion>1.0.5</PackageVersion>
   </PropertyGroup>
-
   <ItemGroup>
     <PackageReference Include="ClosedXML" Version="0.95.4" />
     <PackageReference Include="Humanizer" Version="2.13.14" />
@@ -17,5 +17,4 @@
     <PackageReference Include="SixLabors.ImageSharp" Version="1.0.4" />
     <PackageReference Include="XPlot.Plotly" Version="4.0.6" />
   </ItemGroup>
-
 </Project>
