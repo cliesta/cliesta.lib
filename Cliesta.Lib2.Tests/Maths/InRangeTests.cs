@@ -18,9 +18,11 @@
 
 using NUnit.Framework;
 using Cliesta.Lib2.Maths;
+using System.Diagnostics.CodeAnalysis;
 
 namespace Cliesta.Lib2.Tests.Maths
 {
+    [ExcludeFromCodeCoverage]
     public class InRangeTests
     {
         [TestCase( 0, 1, 0, true, false, true )]

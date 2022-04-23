@@ -16,11 +16,13 @@
 
 #endregion
 
+using System.Diagnostics.CodeAnalysis;
 using NUnit.Framework;
 using Cliesta.Lib2.Humanizer;
 
 namespace Cliesta.Lib2.Tests.Humanizer
 {
+    [ExcludeFromCodeCoverage]
     public class SignificantFiguresTests
     {
         [TestCase( 0.07, 1, "0.07" )]

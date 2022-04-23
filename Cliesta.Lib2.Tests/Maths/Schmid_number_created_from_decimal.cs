@@ -19,10 +19,12 @@
 using Cliesta.Lib2.Maths;
 using NUnit.Framework;
 using System;
+using System.Diagnostics.CodeAnalysis;
 
 namespace Cliesta.Lib2.Tests.Maths
 {
 
+    [ExcludeFromCodeCoverage]
     [TestFixtureSource( nameof( FixtureArgs ) )]
     internal class Schmid_number_created_from_decimal
     {

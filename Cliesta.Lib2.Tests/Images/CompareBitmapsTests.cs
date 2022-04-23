@@ -16,6 +16,7 @@
 
 #endregion
 
+using System.Diagnostics.CodeAnalysis;
 using System.Drawing;
 using NUnit.Framework;
 using Cliesta.Lib2.Images;
@@ -23,6 +24,7 @@ using System.Drawing.Imaging;
 
 namespace Cliesta.Lib2.Tests.Images
 {
+    [ExcludeFromCodeCoverage]
     public class CompareBitmapsTests
     {
         [Test]

@@ -16,12 +16,14 @@
 
 #endregion
 
+using System.Diagnostics.CodeAnalysis;
 using NUnit.Framework;
 using System.Drawing;
 using Cliesta.Lib2.Images;
 
 namespace Cliesta.Lib2.Tests.Images
 {
+    [ExcludeFromCodeCoverage]
     public class ResizeBitmapTests
     {
         [Test]
